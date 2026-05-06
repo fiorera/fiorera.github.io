@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fiorera</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f5ebf0;
+      color: #3c2846;
+    }
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 4rem;
+      letter-spacing: 4px;
+      margin: 0;
+    }
+    p {
+      margin-top: 20px;
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+    .nav {
+      position: fixed;
+      top: 20px;
+      width: 100%;
+      text-align: center;
+    }
+    .nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #3c2846;
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 10px;
+      padding: 50px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .footer {
+      text-align: center;
+      padding: 40px;
+      font-size: 0.8rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="#">HOME</a>
+  <a href="#gallery">PORTFOLIO</a>
+  <a href="#about">ABOUT</a>
+</div>
+
+<section class="hero">
+  <h1>FIORERA</h1>
+  <p>Unfold the unseen</p>
+</section>
+
+<section id="gallery" class="gallery">
+  <img src="images/photo1.jpg" alt="">
+  <img src="images/photo2.jpg" alt="">
+  <img src="images/photo3.jpg" alt="">
+</section>
+
+<section id="about" class="hero">
+  <h1 style="font-size:2rem;">About</h1>
+  <p>Fiorera is not a place. It is a state of becoming.</p>
+</section>
+
+<div class="footer">
+  © 2026 Fiorera — Photography, Art, Silence
+</div>
+
+</body>
+</html>
