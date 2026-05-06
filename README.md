@@ -1,5 +1,5 @@
 # fiorera.github.io
-FIORERA | Unfold the unseen
+FIORERA | Form. Light. Becoming.
 # Fiorera
 
 Fiorera is not a place.  
